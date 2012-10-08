@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47AE44F0162306FB00EB0302 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AE44EF162306FB00EB0302 /* Cocoa.framework */; };
+		47AE44FA162306FB00EB0302 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47AE44F8162306FB00EB0302 /* InfoPlist.strings */; };
+		47AE44FC162306FB00EB0302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AE44FB162306FB00EB0302 /* main.m */; };
+		47AE4500162306FB00EB0302 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 47AE44FE162306FB00EB0302 /* Credits.rtf */; };
+		47AE4503162306FB00EB0302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AE4502162306FB00EB0302 /* AppDelegate.m */; };
+		47AE4506162306FB00EB0302 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47AE4504162306FB00EB0302 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47AE44EB162306FB00EB0302 /* MoeRadio for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoeRadio for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AE44EF162306FB00EB0302 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		47AE44F2162306FB00EB0302 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		47AE44F3162306FB00EB0302 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		47AE44F4162306FB00EB0302 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47AE44F7162306FB00EB0302 /* MoeRadio for Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoeRadio for Mac-Info.plist"; sourceTree = "<group>"; };
+		47AE44F9162306FB00EB0302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47AE44FB162306FB00EB0302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47AE44FD162306FB00EB0302 /* MoeRadio for Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoeRadio for Mac-Prefix.pch"; sourceTree = "<group>"; };
+		47AE44FF162306FB00EB0302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		47AE4501162306FB00EB0302 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47AE4502162306FB00EB0302 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47AE4505162306FB00EB0302 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47AE44E8162306FB00EB0302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AE44F0162306FB00EB0302 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47AE44E0162306FB00EB0302 = {
+			isa = PBXGroup;
+			children = (
+				47AE44F5162306FB00EB0302 /* MoeRadio for Mac */,
+				47AE44EE162306FB00EB0302 /* Frameworks */,
+				47AE44EC162306FB00EB0302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47AE44EC162306FB00EB0302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47AE44EB162306FB00EB0302 /* MoeRadio for Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47AE44EE162306FB00EB0302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47AE44EF162306FB00EB0302 /* Cocoa.framework */,
+				47AE44F1162306FB00EB0302 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47AE44F1162306FB00EB0302 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47AE44F2162306FB00EB0302 /* AppKit.framework */,
+				47AE44F3162306FB00EB0302 /* CoreData.framework */,
+				47AE44F4162306FB00EB0302 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		47AE44F5162306FB00EB0302 /* MoeRadio for Mac */ = {
+			isa = PBXGroup;
+			children = (
+				47AE4501162306FB00EB0302 /* AppDelegate.h */,
+				47AE4502162306FB00EB0302 /* AppDelegate.m */,
+				47AE4504162306FB00EB0302 /* MainMenu.xib */,
+				47AE44F6162306FB00EB0302 /* Supporting Files */,
+			);
+			path = "MoeRadio for Mac";
+			sourceTree = "<group>";
+		};
+		47AE44F6162306FB00EB0302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47AE44F7162306FB00EB0302 /* MoeRadio for Mac-Info.plist */,
+				47AE44F8162306FB00EB0302 /* InfoPlist.strings */,
+				47AE44FB162306FB00EB0302 /* main.m */,
+				47AE44FD162306FB00EB0302 /* MoeRadio for Mac-Prefix.pch */,
+				47AE44FE162306FB00EB0302 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47AE44EA162306FB00EB0302 /* MoeRadio for Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AE4509162306FB00EB0302 /* Build configuration list for PBXNativeTarget "MoeRadio for Mac" */;
+			buildPhases = (
+				47AE44E7162306FB00EB0302 /* Sources */,
+				47AE44E8162306FB00EB0302 /* Frameworks */,
+				47AE44E9162306FB00EB0302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MoeRadio for Mac";
+			productName = "MoeRadio for Mac";
+			productReference = 47AE44EB162306FB00EB0302 /* MoeRadio for Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47AE44E2162306FB00EB0302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "HT&L";
+			};
+			buildConfigurationList = 47AE44E5162306FB00EB0302 /* Build configuration list for PBXProject "MoeRadio for Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47AE44E0162306FB00EB0302;
+			productRefGroup = 47AE44EC162306FB00EB0302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47AE44EA162306FB00EB0302 /* MoeRadio for Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47AE44E9162306FB00EB0302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AE44FA162306FB00EB0302 /* InfoPlist.strings in Resources */,
+				47AE4500162306FB00EB0302 /* Credits.rtf in Resources */,
+				47AE4506162306FB00EB0302 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47AE44E7162306FB00EB0302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AE44FC162306FB00EB0302 /* main.m in Sources */,
+				47AE4503162306FB00EB0302 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47AE44F8162306FB00EB0302 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AE44F9162306FB00EB0302 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47AE44FE162306FB00EB0302 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AE44FF162306FB00EB0302 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		47AE4504162306FB00EB0302 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AE4505162306FB00EB0302 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47AE4507162306FB00EB0302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47AE4508162306FB00EB0302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47AE450A162306FB00EB0302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoeRadio for Mac/MoeRadio for Mac-Prefix.pch";
+				INFOPLIST_FILE = "MoeRadio for Mac/MoeRadio for Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47AE450B162306FB00EB0302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoeRadio for Mac/MoeRadio for Mac-Prefix.pch";
+				INFOPLIST_FILE = "MoeRadio for Mac/MoeRadio for Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47AE44E5162306FB00EB0302 /* Build configuration list for PBXProject "MoeRadio for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AE4507162306FB00EB0302 /* Debug */,
+				47AE4508162306FB00EB0302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AE4509162306FB00EB0302 /* Build configuration list for PBXNativeTarget "MoeRadio for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AE450A162306FB00EB0302 /* Debug */,
+				47AE450B162306FB00EB0302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47AE44E2162306FB00EB0302 /* Project object */;
+}
