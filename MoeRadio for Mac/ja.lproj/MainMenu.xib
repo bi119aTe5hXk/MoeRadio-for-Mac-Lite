@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4511" systemVersion="13A598" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D38" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment version="1070" defaultVersion="1080" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4511"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -14,10 +14,10 @@
         <customObject id="-3" userLabel="Application"/>
         <menu title="AMainMenu" systemMenu="main" id="29">
             <items>
-                <menuItem title="MoeRadio Lite" id="56">
-                    <menu key="submenu" title="MoeRadio Lite" systemMenu="apple" id="57">
+                <menuItem title="萌電波 Lite" id="56">
+                    <menu key="submenu" title="萌電波 Lite" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="About" id="58">
+                            <menuItem title="萌電波 について" id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
@@ -26,7 +26,7 @@
                             <menuItem isSeparatorItem="YES" id="236">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Settings..." keyEquivalent="," id="129">
+                            <menuItem title="設定..." keyEquivalent="," id="129">
                                 <connections>
                                     <action selector="showPerefencePanel:" target="494" id="1637"/>
                                 </connections>
@@ -34,13 +34,13 @@
                             <menuItem isSeparatorItem="YES" id="143">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Services" id="131">
-                                <menu key="submenu" title="Services" systemMenu="services" id="130"/>
+                            <menuItem title="サービス" id="131">
+                                <menu key="submenu" title="サービス" systemMenu="services" id="130"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="144">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Quit?" keyEquivalent="q" id="136">
+                            <menuItem title="終了する?" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-3" id="449"/>
                                 </connections>
@@ -48,11 +48,11 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Magic" id="1364">
+                <menuItem title="魔法" id="1364">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Magic" id="1365">
+                    <menu key="submenu" title="魔法" id="1365">
                         <items>
-                            <menuItem title="Listen/Break" id="1366">
+                            <menuItem title="スタート/一時停止" id="1366">
                                 <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
@@ -61,38 +61,38 @@ DQ
                                     <action selector="performClick:" target="561" id="1372"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Back" keyEquivalent="" id="1908">
+                            <menuItem title="上の曲" keyEquivalent="" id="1908">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="prebtnpressd:" target="494" id="2642"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Next" keyEquivalent="" id="1367">
+                            <menuItem title="次の曲" keyEquivalent="" id="1367">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="performClick:" target="577" id="1373"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="1370"/>
-                            <menuItem title="Just Listen" state="on" keyEquivalent="R" id="2645">
+                            <menuItem title="ただ聴く" state="on" keyEquivalent="R" id="2645">
                                 <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
                                 <connections>
                                     <action selector="switchtoplaynormal:" target="494" id="2828"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="1697"/>
-                            <menuItem title="Show album cover" keyEquivalent="b" id="1812">
+                            <menuItem title="アルバムの表紙を表示" keyEquivalent="b" id="1812">
                                 <connections>
                                     <action selector="showArtworkPanel:" target="494" id="1813"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Show album in moefou" id="1710">
+                            <menuItem title="Moefouにアルバムを表示する" id="1710">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="showalbuminweb:" target="494" id="1711"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Show song in moefou" id="1698">
+                            <menuItem title="Moefouに曲を表示する" id="1698">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="showsonginweb:" target="494" id="1699"/>
@@ -101,9 +101,9 @@ DQ
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Share" id="1638">
+                <menuItem title="共有" id="1638">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Share" id="1639">
+                    <menu key="submenu" title="共有" id="1639">
                         <items>
                             <menuItem title="Twitter" id="1640">
                                 <modifierMask key="keyEquivalentModifierMask"/>
@@ -139,10 +139,10 @@ DQ
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Window" id="19">
-                    <menu key="submenu" title="Window" systemMenu="window" id="24">
+                <menuItem title="ウィンドウ" id="19">
+                    <menu key="submenu" title="ウィンドウ" systemMenu="window" id="24">
                         <items>
-                            <menuItem title="Window always on top" keyEquivalent="t" id="1772">
+                            <menuItem title="常に手前に表示" keyEquivalent="t" id="1772">
                                 <connections>
                                     <action selector="windowlevel:" target="494" id="1774"/>
                                 </connections>
@@ -150,23 +150,23 @@ DQ
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="More" id="490">
+                <menuItem title="その他" id="490">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="More" systemMenu="help" id="491">
+                    <menu key="submenu" title="その他" systemMenu="help" id="491">
                         <items>
-                            <menuItem title="Visit Moe.fm" id="1378">
+                            <menuItem title="Moe.fmを訪問" id="1378">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="visitmoefm:" target="494" id="1380"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Feed Back/Advoice" id="2515">
+                            <menuItem title="フィードバック/アドバイス" id="2515">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="menufeedback:" target="494" id="2516"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Buy fullversion" id="F9v-zE-Q47">
+                            <menuItem title="完全バージョンを購入" id="F9v-zE-Q47">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="buyfullversion:" target="494" id="hOC-DQ-ZFA"/>
@@ -177,7 +177,7 @@ DQ
                 </menuItem>
             </items>
         </menu>
-        <window title="MoeRadio Lite" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" showsToolbarButton="NO" frameAutosaveName="MoeRadioForMac-MainWindow" animationBehavior="default" id="371">
+        <window title="萌電波 Lite" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" showsToolbarButton="NO" frameAutosaveName="MoeRadioForMac-MainWindow" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES" texturedBackground="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES"/>
             <rect key="contentRect" x="1076" y="1117" width="419" height="61"/>

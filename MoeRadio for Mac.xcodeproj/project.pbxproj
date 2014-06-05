@@ -7,16 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47236ED2170738410087AF04 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47236ED1170738410087AF04 /* libxml2.dylib */; };
+		47236ED4170738510087AF04 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47236ED3170738510087AF04 /* libxml2.2.dylib */; };
+		47236ED817073DAD0087AF04 /* lastfm_grey.gif in Resources */ = {isa = PBXBuildFile; fileRef = 47236ED717073DAD0087AF04 /* lastfm_grey.gif */; };
+		4731C8B617C6490300E2D1C1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4731C8B417C6490300E2D1C1 /* MainMenu.xib */; };
+		473EB91B1670FBE0002B3A94 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 473EB91A1670FBE0002B3A94 /* prev.png */; };
+		474591E117C9F46A00A894A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 474591E317C9F46A00A894A8 /* Localizable.strings */; };
+		479EDA3316F6009600D7F7F9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479EDA3216F6009600D7F7F9 /* IOKit.framework */; };
+		479EDA3516F600FF00D7F7F9 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479EDA3416F600FF00D7F7F9 /* CoreServices.framework */; };
+		479EDA3816F6012500D7F7F9 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AE44F2162306FB00EB0302 /* AppKit.framework */; };
+		479EDA4016F6024700D7F7F9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479EDA3F16F6024700D7F7F9 /* WebKit.framework */; };
+		479EDA4216F6032600D7F7F9 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479EDA4116F6032600D7F7F9 /* Carbon.framework */; };
+		47A73C3916BD3FCD007B8BBA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A73C3816BD3FCD007B8BBA /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		47AE44F0162306FB00EB0302 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AE44EF162306FB00EB0302 /* Cocoa.framework */; };
 		47AE44FA162306FB00EB0302 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47AE44F8162306FB00EB0302 /* InfoPlist.strings */; };
 		47AE44FC162306FB00EB0302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AE44FB162306FB00EB0302 /* main.m */; };
 		47AE4500162306FB00EB0302 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 47AE44FE162306FB00EB0302 /* Credits.rtf */; };
 		47AE4503162306FB00EB0302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AE4502162306FB00EB0302 /* AppDelegate.m */; };
-		47AE4506162306FB00EB0302 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47AE4504162306FB00EB0302 /* MainMenu.xib */; };
+		47AE450D162307CC00EB0302 /* moe.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AE450C162307CC00EB0302 /* moe.png */; };
+		47AE4516162309CF00EB0302 /* cover_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AE450E162309CF00EB0302 /* cover_large.png */; };
+		47AE4517162309CF00EB0302 /* dislike_no.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AE450F162309CF00EB0302 /* dislike_no.png */; };
+		47AE4518162309CF00EB0302 /* dislike_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AE4510162309CF00EB0302 /* dislike_yes.png */; };
+		47AE4519162309CF00EB0302 /* fav_no.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AE4511162309CF00EB0302 /* fav_no.png */; };
+		47AE451A162309CF00EB0302 /* fav_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AE4512162309CF00EB0302 /* fav_yes.png */; };
+		47AE451B162309CF00EB0302 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AE4513162309CF00EB0302 /* next.png */; };
+		47AE451C162309CF00EB0302 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AE4514162309CF00EB0302 /* pause.png */; };
+		47AE451D162309CF00EB0302 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AE4515162309CF00EB0302 /* play.png */; };
+		47B140351674A2BA00BCB941 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B140341674A2BA00BCB941 /* SystemConfiguration.framework */; };
+		47B140371674A2CC00BCB941 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B140361674A2CC00BCB941 /* Security.framework */; };
+		47BFF8CB1781CB5700D0BEEF /* FBScrollingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BFF8CA1781CB5700D0BEEF /* FBScrollingTextView.m */; };
+		47C3893F17AB730300EE4B01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C3893E17AB730300EE4B01 /* CoreGraphics.framework */; };
+		47D184FC16247D42005DE141 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 47D184FB16247D42005DE141 /* icon.icns */; };
+		47D4FB4D17AB7A4C0051434A /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479EDA3616F6011500D7F7F9 /* ApplicationServices.framework */; };
+		47F678B216231F1B002CB8E4 /* MoeFmAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F678B116231F1B002CB8E4 /* MoeFmAPI.m */; };
+		47F678D81623216B002CB8E4 /* MoeFmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F678D71623216B002CB8E4 /* MoeFmPlayer.m */; };
+		47F678DE1623218F002CB8E4 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F678DB1623218F002CB8E4 /* AudioStreamer.m */; };
+		47F678E01623223F002CB8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AE44F4162306FB00EB0302 /* Foundation.framework */; };
+		47F678E216232250002CB8E4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F678E116232250002CB8E4 /* AudioToolbox.framework */; };
+		47FF208D17C79E7400D323DE /* PerferencePanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47FF208F17C79E7400D323DE /* PerferencePanel.xib */; };
+		47FF209317C79E8700D323DE /* ArtworkviewPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47FF209517C79E8700D323DE /* ArtworkviewPanel.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		47AC3EB91658F8E900DA4687 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		47AE44EB162306FB00EB0302 /* MoeRadio for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoeRadio for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47236ED1170738410087AF04 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		47236ED3170738510087AF04 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		47236ED717073DAD0087AF04 /* lastfm_grey.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lastfm_grey.gif; sourceTree = "<group>"; };
+		4731C8B517C6490300E2D1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		473EB91A1670FBE0002B3A94 /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev.png; sourceTree = "<group>"; };
+		474591E217C9F46A00A894A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		474591E417C9F47000A894A8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		478E6FBB17AB73BA00E46C97 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		479EDA3216F6009600D7F7F9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		479EDA3416F600FF00D7F7F9 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		479EDA3616F6011500D7F7F9 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		479EDA3F16F6024700D7F7F9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		479EDA4116F6032600D7F7F9 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		47A73C3816BD3FCD007B8BBA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		47AE44EB162306FB00EB0302 /* MoeRadio Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoeRadio Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47AE44EF162306FB00EB0302 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		47AE44F2162306FB00EB0302 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		47AE44F3162306FB00EB0302 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -28,7 +87,43 @@
 		47AE44FF162306FB00EB0302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		47AE4501162306FB00EB0302 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47AE4502162306FB00EB0302 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		47AE4505162306FB00EB0302 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		47AE450C162307CC00EB0302 /* moe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moe.png; sourceTree = "<group>"; };
+		47AE450E162309CF00EB0302 /* cover_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_large.png; sourceTree = "<group>"; };
+		47AE450F162309CF00EB0302 /* dislike_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dislike_no.png; sourceTree = "<group>"; };
+		47AE4510162309CF00EB0302 /* dislike_yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dislike_yes.png; sourceTree = "<group>"; };
+		47AE4511162309CF00EB0302 /* fav_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav_no.png; sourceTree = "<group>"; };
+		47AE4512162309CF00EB0302 /* fav_yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav_yes.png; sourceTree = "<group>"; };
+		47AE4513162309CF00EB0302 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		47AE4514162309CF00EB0302 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		47AE4515162309CF00EB0302 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		47AFB08D17C922F600CFBD7D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		47AFB08E17C922F600CFBD7D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/ArtworkviewPanel.xib"; sourceTree = "<group>"; };
+		47AFB08F17C922F600CFBD7D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PerferencePanel.xib"; sourceTree = "<group>"; };
+		47AFB09217C922F600CFBD7D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		47AFB09317C922F600CFBD7D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		47B140341674A2BA00BCB941 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		47B140361674A2CC00BCB941 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		47BFF8C91781CB5700D0BEEF /* FBScrollingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBScrollingTextView.h; sourceTree = "<group>"; };
+		47BFF8CA1781CB5700D0BEEF /* FBScrollingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBScrollingTextView.m; sourceTree = "<group>"; };
+		47C3893E17AB730300EE4B01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47D184FB16247D42005DE141 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
+		47E2712618FB8DFB00304DED /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		47E2712718FB8DFB00304DED /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/ArtworkviewPanel.xib; sourceTree = "<group>"; };
+		47E2712818FB8DFB00304DED /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PerferencePanel.xib; sourceTree = "<group>"; };
+		47E2712918FB8DFB00304DED /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47E2712A18FB8DFB00304DED /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47E2712B18FB8DFB00304DED /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ja; path = ja.lproj/Credits.rtf; sourceTree = "<group>"; };
+		47F678AF16231DEC002CB8E4 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		47F678B016231F1B002CB8E4 /* MoeFmAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoeFmAPI.h; sourceTree = "<group>"; };
+		47F678B116231F1B002CB8E4 /* MoeFmAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoeFmAPI.m; sourceTree = "<group>"; };
+		47F678D61623216B002CB8E4 /* MoeFmPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoeFmPlayer.h; sourceTree = "<group>"; };
+		47F678D71623216B002CB8E4 /* MoeFmPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoeFmPlayer.m; sourceTree = "<group>"; };
+		47F678DA1623218F002CB8E4 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		47F678DB1623218F002CB8E4 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		47F678E116232250002CB8E4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		47FF208E17C79E7400D323DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PerferencePanel.xib; sourceTree = "<group>"; };
+		47FF209417C79E8700D323DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ArtworkviewPanel.xib; sourceTree = "<group>"; };
+		47FF209917C79F7500D323DE /* MoeRadio for Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MoeRadio for Mac.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +131,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D4FB4D17AB7A4C0051434A /* ApplicationServices.framework in Frameworks */,
+				47C3893F17AB730300EE4B01 /* CoreGraphics.framework in Frameworks */,
+				47236ED4170738510087AF04 /* libxml2.2.dylib in Frameworks */,
+				47236ED2170738410087AF04 /* libxml2.dylib in Frameworks */,
+				479EDA4216F6032600D7F7F9 /* Carbon.framework in Frameworks */,
+				479EDA4016F6024700D7F7F9 /* WebKit.framework in Frameworks */,
+				47F678E216232250002CB8E4 /* AudioToolbox.framework in Frameworks */,
+				479EDA3816F6012500D7F7F9 /* AppKit.framework in Frameworks */,
 				47AE44F0162306FB00EB0302 /* Cocoa.framework in Frameworks */,
+				479EDA3516F600FF00D7F7F9 /* CoreServices.framework in Frameworks */,
+				47F678E01623223F002CB8E4 /* Foundation.framework in Frameworks */,
+				479EDA3316F6009600D7F7F9 /* IOKit.framework in Frameworks */,
+				47A73C3916BD3FCD007B8BBA /* Social.framework in Frameworks */,
+				47B140371674A2CC00BCB941 /* Security.framework in Frameworks */,
+				47B140351674A2BA00BCB941 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +164,7 @@
 		47AE44EC162306FB00EB0302 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47AE44EB162306FB00EB0302 /* MoeRadio for Mac.app */,
+				47AE44EB162306FB00EB0302 /* MoeRadio Lite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +172,19 @@
 		47AE44EE162306FB00EB0302 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				478E6FBB17AB73BA00E46C97 /* AVFoundation.framework */,
+				47C3893E17AB730300EE4B01 /* CoreGraphics.framework */,
+				47236ED3170738510087AF04 /* libxml2.2.dylib */,
+				47236ED1170738410087AF04 /* libxml2.dylib */,
+				479EDA4116F6032600D7F7F9 /* Carbon.framework */,
+				479EDA3F16F6024700D7F7F9 /* WebKit.framework */,
+				479EDA3616F6011500D7F7F9 /* ApplicationServices.framework */,
+				479EDA3416F600FF00D7F7F9 /* CoreServices.framework */,
+				479EDA3216F6009600D7F7F9 /* IOKit.framework */,
+				47A73C3816BD3FCD007B8BBA /* Social.framework */,
+				47B140341674A2BA00BCB941 /* SystemConfiguration.framework */,
+				47B140361674A2CC00BCB941 /* Security.framework */,
+				47F678E116232250002CB8E4 /* AudioToolbox.framework */,
 				47AE44EF162306FB00EB0302 /* Cocoa.framework */,
 				47AE44F1162306FB00EB0302 /* Other Frameworks */,
 			);
@@ -82,9 +204,17 @@
 		47AE44F5162306FB00EB0302 /* MoeRadio for Mac */ = {
 			isa = PBXGroup;
 			children = (
+				47FF209917C79F7500D323DE /* MoeRadio for Mac.entitlements */,
+				47F678AF16231DEC002CB8E4 /* API.h */,
 				47AE4501162306FB00EB0302 /* AppDelegate.h */,
 				47AE4502162306FB00EB0302 /* AppDelegate.m */,
-				47AE4504162306FB00EB0302 /* MainMenu.xib */,
+				47F678B016231F1B002CB8E4 /* MoeFmAPI.h */,
+				47F678B116231F1B002CB8E4 /* MoeFmAPI.m */,
+				47F678D61623216B002CB8E4 /* MoeFmPlayer.h */,
+				47F678D71623216B002CB8E4 /* MoeFmPlayer.m */,
+				4731C8B417C6490300E2D1C1 /* MainMenu.xib */,
+				47FF209517C79E8700D323DE /* ArtworkviewPanel.xib */,
+				47FF208F17C79E7400D323DE /* PerferencePanel.xib */,
 				47AE44F6162306FB00EB0302 /* Supporting Files */,
 			);
 			path = "MoeRadio for Mac";
@@ -93,33 +223,59 @@
 		47AE44F6162306FB00EB0302 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				47BFF8C91781CB5700D0BEEF /* FBScrollingTextView.h */,
+				47BFF8CA1781CB5700D0BEEF /* FBScrollingTextView.m */,
+				47F678D91623218F002CB8E4 /* AudioStreamer */,
+				47AE450C162307CC00EB0302 /* moe.png */,
+				47AE450E162309CF00EB0302 /* cover_large.png */,
+				47236ED717073DAD0087AF04 /* lastfm_grey.gif */,
+				47AE450F162309CF00EB0302 /* dislike_no.png */,
+				47D184FB16247D42005DE141 /* icon.icns */,
+				47AE4510162309CF00EB0302 /* dislike_yes.png */,
+				47AE4511162309CF00EB0302 /* fav_no.png */,
+				47AE4512162309CF00EB0302 /* fav_yes.png */,
+				47AE4513162309CF00EB0302 /* next.png */,
+				473EB91A1670FBE0002B3A94 /* prev.png */,
+				47AE4514162309CF00EB0302 /* pause.png */,
+				47AE4515162309CF00EB0302 /* play.png */,
 				47AE44F7162306FB00EB0302 /* MoeRadio for Mac-Info.plist */,
 				47AE44F8162306FB00EB0302 /* InfoPlist.strings */,
 				47AE44FB162306FB00EB0302 /* main.m */,
 				47AE44FD162306FB00EB0302 /* MoeRadio for Mac-Prefix.pch */,
+				474591E317C9F46A00A894A8 /* Localizable.strings */,
 				47AE44FE162306FB00EB0302 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		47F678D91623218F002CB8E4 /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				47F678DA1623218F002CB8E4 /* AudioStreamer.h */,
+				47F678DB1623218F002CB8E4 /* AudioStreamer.m */,
+			);
+			path = AudioStreamer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47AE44EA162306FB00EB0302 /* MoeRadio for Mac */ = {
+		47AE44EA162306FB00EB0302 /* MoeRadio Lite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47AE4509162306FB00EB0302 /* Build configuration list for PBXNativeTarget "MoeRadio for Mac" */;
+			buildConfigurationList = 47AE4509162306FB00EB0302 /* Build configuration list for PBXNativeTarget "MoeRadio Lite" */;
 			buildPhases = (
 				47AE44E7162306FB00EB0302 /* Sources */,
 				47AE44E8162306FB00EB0302 /* Frameworks */,
 				47AE44E9162306FB00EB0302 /* Resources */,
+				47AC3EB91658F8E900DA4687 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "MoeRadio for Mac";
+			name = "MoeRadio Lite";
 			productName = "MoeRadio for Mac";
-			productReference = 47AE44EB162306FB00EB0302 /* MoeRadio for Mac.app */;
+			productReference = 47AE44EB162306FB00EB0302 /* MoeRadio Lite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,6 +286,19 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "HT&L";
+				TargetAttributes = {
+					47AE44EA162306FB00EB0302 = {
+						DevelopmentTeam = HR66SGQEZ4;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = 47AE44E5162306FB00EB0302 /* Build configuration list for PBXProject "MoeRadio for Mac" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -137,13 +306,15 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
+				ja,
 			);
 			mainGroup = 47AE44E0162306FB00EB0302;
 			productRefGroup = 47AE44EC162306FB00EB0302 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47AE44EA162306FB00EB0302 /* MoeRadio for Mac */,
+				47AE44EA162306FB00EB0302 /* MoeRadio Lite */,
 			);
 		};
 /* End PBXProject section */
@@ -155,7 +326,22 @@
 			files = (
 				47AE44FA162306FB00EB0302 /* InfoPlist.strings in Resources */,
 				47AE4500162306FB00EB0302 /* Credits.rtf in Resources */,
-				47AE4506162306FB00EB0302 /* MainMenu.xib in Resources */,
+				47AE450D162307CC00EB0302 /* moe.png in Resources */,
+				47AE4516162309CF00EB0302 /* cover_large.png in Resources */,
+				47AE4517162309CF00EB0302 /* dislike_no.png in Resources */,
+				47AE4518162309CF00EB0302 /* dislike_yes.png in Resources */,
+				47AE4519162309CF00EB0302 /* fav_no.png in Resources */,
+				47AE451A162309CF00EB0302 /* fav_yes.png in Resources */,
+				47AE451B162309CF00EB0302 /* next.png in Resources */,
+				47AE451C162309CF00EB0302 /* pause.png in Resources */,
+				47AE451D162309CF00EB0302 /* play.png in Resources */,
+				47D184FC16247D42005DE141 /* icon.icns in Resources */,
+				47FF208D17C79E7400D323DE /* PerferencePanel.xib in Resources */,
+				47FF209317C79E8700D323DE /* ArtworkviewPanel.xib in Resources */,
+				473EB91B1670FBE0002B3A94 /* prev.png in Resources */,
+				47236ED817073DAD0087AF04 /* lastfm_grey.gif in Resources */,
+				4731C8B617C6490300E2D1C1 /* MainMenu.xib in Resources */,
+				474591E117C9F46A00A894A8 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,16 +354,43 @@
 			files = (
 				47AE44FC162306FB00EB0302 /* main.m in Sources */,
 				47AE4503162306FB00EB0302 /* AppDelegate.m in Sources */,
+				47F678B216231F1B002CB8E4 /* MoeFmAPI.m in Sources */,
+				47F678D81623216B002CB8E4 /* MoeFmPlayer.m in Sources */,
+				47F678DE1623218F002CB8E4 /* AudioStreamer.m in Sources */,
+				47BFF8CB1781CB5700D0BEEF /* FBScrollingTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4731C8B417C6490300E2D1C1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4731C8B517C6490300E2D1C1 /* en */,
+				47AFB08D17C922F600CFBD7D /* zh-Hans */,
+				47E2712618FB8DFB00304DED /* ja */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		474591E317C9F46A00A894A8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474591E217C9F46A00A894A8 /* en */,
+				474591E417C9F47000A894A8 /* zh-Hans */,
+				47E2712A18FB8DFB00304DED /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = SOURCE_ROOT;
+		};
 		47AE44F8162306FB00EB0302 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				47AE44F9162306FB00EB0302 /* en */,
+				47AFB09217C922F600CFBD7D /* zh-Hans */,
+				47E2712918FB8DFB00304DED /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -186,16 +399,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				47AE44FF162306FB00EB0302 /* en */,
+				47AFB09317C922F600CFBD7D /* zh-Hans */,
+				47E2712B18FB8DFB00304DED /* ja */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		47AE4504162306FB00EB0302 /* MainMenu.xib */ = {
+		47FF208F17C79E7400D323DE /* PerferencePanel.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				47AE4505162306FB00EB0302 /* en */,
+				47FF208E17C79E7400D323DE /* en */,
+				47AFB08F17C922F600CFBD7D /* zh-Hans */,
+				47E2712818FB8DFB00304DED /* ja */,
 			);
-			name = MainMenu.xib;
+			name = PerferencePanel.xib;
+			sourceTree = "<group>";
+		};
+		47FF209517C79E8700D323DE /* ArtworkviewPanel.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FF209417C79E8700D323DE /* en */,
+				47AFB08E17C922F600CFBD7D /* zh-Hans */,
+				47E2712718FB8DFB00304DED /* ja */,
+			);
+			name = ArtworkviewPanel.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -208,9 +435,13 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -224,8 +455,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				PLIST_FILE_OUTPUT_FORMAT = binary;
+				PROVISIONING_PROFILE = "9BE42451-25FB-46B0-9C3A-4EBF2CFA0B54";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -237,8 +471,11 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -247,7 +484,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PLIST_FILE_OUTPUT_FORMAT = binary;
+				PROVISIONING_PROFILE = "9BE42451-25FB-46B0-9C3A-4EBF2CFA0B54";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -255,11 +495,35 @@
 		47AE450A162306FB00EB0302 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "MoeRadio for Mac/MoeRadio for Mac.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Downloads/OAuthConsumer\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoeRadio for Mac/MoeRadio for Mac-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "MoeRadio for Mac/MoeRadio for Mac-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MoeRadio for Mac\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
+				PLIST_FILE_OUTPUT_FORMAT = XML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -267,11 +531,34 @@
 		47AE450B162306FB00EB0302 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "MoeRadio for Mac/MoeRadio for Mac.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Downloads/OAuthConsumer\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoeRadio for Mac/MoeRadio for Mac-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "MoeRadio for Mac/MoeRadio for Mac-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MoeRadio for Mac\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
+				PLIST_FILE_OUTPUT_FORMAT = XML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,13 +575,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47AE4509162306FB00EB0302 /* Build configuration list for PBXNativeTarget "MoeRadio for Mac" */ = {
+		47AE4509162306FB00EB0302 /* Build configuration list for PBXNativeTarget "MoeRadio Lite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47AE450A162306FB00EB0302 /* Debug */,
 				47AE450B162306FB00EB0302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4511" systemVersion="13A598" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4510" systemVersion="13A569" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment version="1070" defaultVersion="1080" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4511"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4510"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -14,10 +14,10 @@
         <customObject id="-3" userLabel="Application"/>
         <menu title="AMainMenu" systemMenu="main" id="29">
             <items>
-                <menuItem title="MoeRadio Lite" id="56">
-                    <menu key="submenu" title="MoeRadio Lite" systemMenu="apple" id="57">
+                <menuItem title="萌电波 Lite" id="56">
+                    <menu key="submenu" title="萌电波 Lite" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="About" id="58">
+                            <menuItem title="关于萌电波" id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
@@ -26,7 +26,7 @@
                             <menuItem isSeparatorItem="YES" id="236">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Settings..." keyEquivalent="," id="129">
+                            <menuItem title="调教..." keyEquivalent="," id="129">
                                 <connections>
                                     <action selector="showPerefencePanel:" target="494" id="1637"/>
                                 </connections>
@@ -34,13 +34,13 @@
                             <menuItem isSeparatorItem="YES" id="143">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Services" id="131">
-                                <menu key="submenu" title="Services" systemMenu="services" id="130"/>
+                            <menuItem title="服务" id="131">
+                                <menu key="submenu" title="服务" systemMenu="services" id="130"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="144">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Quit?" keyEquivalent="q" id="136">
+                            <menuItem title="退出？" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-3" id="449"/>
                                 </connections>
@@ -48,11 +48,11 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Magic" id="1364">
+                <menuItem title="魔法" id="1364">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Magic" id="1365">
+                    <menu key="submenu" title="魔法" id="1365">
                         <items>
-                            <menuItem title="Listen/Break" id="1366">
+                            <menuItem title="收听/暂停" id="1366">
                                 <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
@@ -61,38 +61,38 @@ DQ
                                     <action selector="performClick:" target="561" id="1372"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Back" keyEquivalent="" id="1908">
+                            <menuItem title="上一首" keyEquivalent="" id="1908">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="prebtnpressd:" target="494" id="2642"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Next" keyEquivalent="" id="1367">
+                            <menuItem title="下一首" keyEquivalent="" id="1367">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="performClick:" target="577" id="1373"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="1370"/>
-                            <menuItem title="Just Listen" state="on" keyEquivalent="R" id="2645">
+                            <menuItem title="随便听听" state="on" keyEquivalent="R" id="2645">
                                 <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
                                 <connections>
                                     <action selector="switchtoplaynormal:" target="494" id="2828"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="1697"/>
-                            <menuItem title="Show album cover" keyEquivalent="b" id="1812">
+                            <menuItem title="显示封面大图" keyEquivalent="b" id="1812">
                                 <connections>
                                     <action selector="showArtworkPanel:" target="494" id="1813"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Show album in moefou" id="1710">
+                            <menuItem title="在萌否里查看该歌曲" id="1710">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="showalbuminweb:" target="494" id="1711"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Show song in moefou" id="1698">
+                            <menuItem title="在萌否里查看该专辑" id="1698">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="showsonginweb:" target="494" id="1699"/>
@@ -101,36 +101,36 @@ DQ
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Share" id="1638">
+                <menuItem title="分享" id="1638">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Share" id="1639">
+                    <menu key="submenu" title="分享" id="1639">
                         <items>
-                            <menuItem title="Twitter" id="1640">
+                            <menuItem title="Twitter(推特)" id="1640">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="sharetotwitter:" target="494" id="1650"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="FaceBook" id="1641">
+                            <menuItem title="FaceBook(脸书)" id="1641">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="sharetofacebook:" target="494" id="1646"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Google Plus" id="1642">
+                            <menuItem title="Google Plus(G+娘)" id="1642">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="sharetogoogleplus:" target="494" id="1647"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="1645"/>
-                            <menuItem title="Sina Weibo" id="1643">
+                            <menuItem title="Sina Weibo(新浪微博)" id="1643">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="sharetosinaweibo:" target="494" id="1648"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Tencent Weibo" id="1644">
+                            <menuItem title="Tencent Weibo(腾讯微博)" id="1644">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="sharetotencentweibo:" target="494" id="1649"/>
@@ -139,10 +139,10 @@ DQ
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Window" id="19">
-                    <menu key="submenu" title="Window" systemMenu="window" id="24">
+                <menuItem title="窗口" id="19">
+                    <menu key="submenu" title="窗口" systemMenu="window" id="24">
                         <items>
-                            <menuItem title="Window always on top" keyEquivalent="t" id="1772">
+                            <menuItem title="永远置顶" keyEquivalent="t" id="1772">
                                 <connections>
                                     <action selector="windowlevel:" target="494" id="1774"/>
                                 </connections>
@@ -150,26 +150,26 @@ DQ
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="More" id="490">
+                <menuItem title="更多" id="490">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="More" systemMenu="help" id="491">
+                    <menu key="submenu" title="更多" systemMenu="help" id="491">
                         <items>
-                            <menuItem title="Visit Moe.fm" id="1378">
+                            <menuItem title="访问Moe.fm" id="1378">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="visitmoefm:" target="494" id="1380"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Feed Back/Advoice" id="2515">
+                            <menuItem title="反馈/建议" id="2515">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="menufeedback:" target="494" id="2516"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Buy fullversion" id="F9v-zE-Q47">
+                            <menuItem title="购买完整版" id="EvV-GD-y7u">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
-                                    <action selector="buyfullversion:" target="494" id="hOC-DQ-ZFA"/>
+                                    <action selector="buyfullversion:" target="494" id="YXm-O1-p6z"/>
                                 </connections>
                             </menuItem>
                         </items>
@@ -177,7 +177,7 @@ DQ
                 </menuItem>
             </items>
         </menu>
-        <window title="MoeRadio Lite" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" showsToolbarButton="NO" frameAutosaveName="MoeRadioForMac-MainWindow" animationBehavior="default" id="371">
+        <window title="萌电波接收姬 Lite" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" showsToolbarButton="NO" frameAutosaveName="MoeRadioForMac-MainWindow" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES" texturedBackground="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES"/>
             <rect key="contentRect" x="1076" y="1117" width="419" height="61"/>
@@ -186,13 +186,9 @@ DQ
                 <rect key="frame" x="0.0" y="0.0" width="419" height="61"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
-                    <button translatesAutoresizingMaskIntoConstraints="NO" id="561">
+                    <button id="561">
                         <rect key="frame" x="15" y="12" width="25" height="38"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="25" id="JMt-G4-d8F"/>
-                            <constraint firstAttribute="height" constant="38" id="p7a-Mh-2dr"/>
-                        </constraints>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="play" imagePosition="overlaps" alignment="center" state="on" imageScaling="proportionallyUpOrDown" inset="2" id="562">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -204,12 +200,9 @@ IA
                             <action selector="playbtnpressd:" target="494" id="1335"/>
                         </connections>
                     </button>
-                    <button translatesAutoresizingMaskIntoConstraints="NO" id="577">
+                    <button id="577">
                         <rect key="frame" x="48" y="7" width="31" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="31" id="7uN-BJ-Ffv"/>
-                        </constraints>
                         <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="next" imagePosition="overlaps" alignment="center" state="on" imageScaling="proportionallyUpOrDown" inset="2" id="578">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -218,39 +211,36 @@ IA
                             <action selector="nextbtnpressd:" target="494" id="1337"/>
                         </connections>
                     </button>
-                    <box autoresizesSubviews="NO" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="1064">
+                    <box autoresizesSubviews="NO" titlePosition="noTitle" id="1064">
                         <rect key="frame" x="89" y="3" width="324" height="60"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <view key="contentView">
                             <rect key="frame" x="2" y="2" width="320" height="56"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1077">
+                                <textField verticalHuggingPriority="750" id="1077">
                                     <rect key="frame" x="255" y="7" width="51" height="13"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="47" id="r3g-y9-bhV"/>
-                                    </constraints>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="- --:--" id="1081">
                                         <font key="font" metaFont="system" size="10"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <imageView translatesAutoresizingMaskIntoConstraints="NO" id="1155">
+                                <imageView id="1155">
                                     <rect key="frame" x="7" y="7" width="45" height="43"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="cover_large" id="1156"/>
                                 </imageView>
-                                <progressIndicator hidden="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="1338">
+                                <progressIndicator hidden="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="1338">
                                     <rect key="frame" x="22" y="20" width="16" height="16"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 </progressIndicator>
-                                <progressIndicator hidden="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="1346">
+                                <progressIndicator hidden="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="1346">
                                     <rect key="frame" x="277" y="6" width="16" height="16"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 </progressIndicator>
-                                <button translatesAutoresizingMaskIntoConstraints="NO" id="1654">
+                                <button id="1654">
                                     <rect key="frame" x="7" y="7" width="45" height="46"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" transparent="YES" imageScaling="proportionallyDown" inset="2" id="1655">
@@ -261,56 +251,21 @@ IA
                                         <action selector="showArtworkPanel:" target="494" id="1692"/>
                                     </connections>
                                 </button>
-                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="o2R-ZL-Grd" customClass="FBScrollingTextView">
+                                <customView id="o2R-ZL-Grd" customClass="FBScrollingTextView">
                                     <rect key="frame" x="60" y="33" width="243" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 </customView>
-                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="j7a-Ox-i3E" customClass="FBScrollingTextView">
+                                <customView id="j7a-Ox-i3E" customClass="FBScrollingTextView">
                                     <rect key="frame" x="60" y="20" width="243" height="15"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 </customView>
                             </subviews>
                         </view>
-                        <constraints>
-                            <constraint firstItem="1077" firstAttribute="baseline" secondItem="1654" secondAttribute="baseline" id="4XB-Uj-aQ3"/>
-                            <constraint firstItem="j7a-Ox-i3E" firstAttribute="top" secondItem="1064" secondAttribute="top" constant="21" id="8xl-JW-sXd"/>
-                            <constraint firstItem="1155" firstAttribute="bottom" secondItem="1654" secondAttribute="bottom" id="KuU-R8-izr"/>
-                            <constraint firstItem="o2R-ZL-Grd" firstAttribute="leading" secondItem="1155" secondAttribute="trailing" constant="8" symbolic="YES" id="RLM-Q6-Bkd"/>
-                            <constraint firstAttribute="trailing" secondItem="1346" secondAttribute="trailing" constant="26" id="RR5-wU-Vrm"/>
-                            <constraint firstItem="o2R-ZL-Grd" firstAttribute="leading" secondItem="1654" secondAttribute="trailing" constant="8" symbolic="YES" id="SHx-f4-tAt"/>
-                            <constraint firstAttribute="trailing" secondItem="o2R-ZL-Grd" secondAttribute="trailing" constant="16" id="Us0-WH-Skm"/>
-                            <constraint firstItem="j7a-Ox-i3E" firstAttribute="leading" secondItem="1155" secondAttribute="trailing" constant="8" symbolic="YES" id="YMG-9Z-ftA"/>
-                            <constraint firstItem="1338" firstAttribute="centerY" secondItem="1155" secondAttribute="centerY" id="bK2-Gb-OyU"/>
-                            <constraint firstItem="1346" firstAttribute="top" secondItem="o2R-ZL-Grd" secondAttribute="bottom" constant="11" id="eDM-Kr-zy3"/>
-                            <constraint firstItem="1338" firstAttribute="top" secondItem="1064" secondAttribute="top" constant="20" id="eoC-Vj-yd9"/>
-                            <constraint firstItem="1155" firstAttribute="top" secondItem="1064" secondAttribute="top" constant="6" id="fMJ-xX-DRB"/>
-                            <constraint firstAttribute="trailing" secondItem="1077" secondAttribute="trailing" constant="15" id="iry-hI-5WC"/>
-                            <constraint firstAttribute="bottom" secondItem="1346" secondAttribute="bottom" constant="4" id="ndp-rf-fDM"/>
-                            <constraint firstItem="j7a-Ox-i3E" firstAttribute="trailing" secondItem="o2R-ZL-Grd" secondAttribute="trailing" id="nvw-ej-mJw"/>
-                            <constraint firstItem="1338" firstAttribute="leading" secondItem="1064" secondAttribute="leading" constant="21" id="pRw-So-YSY"/>
-                            <constraint firstItem="1654" firstAttribute="leading" secondItem="1064" secondAttribute="leading" constant="6" id="r6e-pB-0aN"/>
-                            <constraint firstItem="1155" firstAttribute="top" secondItem="o2R-ZL-Grd" secondAttribute="top" id="r8l-ta-Kr4"/>
-                            <constraint firstItem="1654" firstAttribute="top" secondItem="1064" secondAttribute="top" constant="3" id="tym-ZZ-zhY"/>
-                            <constraint firstItem="1654" firstAttribute="leading" secondItem="1155" secondAttribute="leading" id="uN2-Lu-fWq"/>
-                            <constraint firstItem="j7a-Ox-i3E" firstAttribute="bottom" secondItem="1338" secondAttribute="bottom" id="ujJ-Fb-MiO"/>
-                            <constraint firstItem="j7a-Ox-i3E" firstAttribute="leading" secondItem="1338" secondAttribute="trailing" constant="22" id="zma-iC-1RX"/>
-                        </constraints>
                         <color key="borderColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <font key="titleFont" size="11" name="LucidaGrande"/>
                     </box>
                 </subviews>
-                <constraints>
-                    <constraint firstItem="577" firstAttribute="centerY" secondItem="561" secondAttribute="centerY" id="1hL-rP-tPe"/>
-                    <constraint firstItem="1064" firstAttribute="top" secondItem="372" secondAttribute="top" id="2SF-m2-SsR"/>
-                    <constraint firstItem="561" firstAttribute="leading" secondItem="372" secondAttribute="leading" constant="15" id="5eA-4a-KCL"/>
-                    <constraint firstItem="577" firstAttribute="top" secondItem="372" secondAttribute="top" constant="6" id="Lnp-8Y-Jrc"/>
-                    <constraint firstAttribute="trailing" secondItem="1064" secondAttribute="trailing" constant="9" id="ed1-Om-lzU"/>
-                    <constraint firstItem="577" firstAttribute="leading" secondItem="561" secondAttribute="trailing" constant="8" symbolic="YES" id="mK7-ws-OAy"/>
-                    <constraint firstItem="1064" firstAttribute="leading" secondItem="577" secondAttribute="trailing" constant="13" id="osQ-3M-b7t"/>
-                    <constraint firstItem="561" firstAttribute="top" secondItem="372" secondAttribute="top" constant="11" id="raU-f9-EO2"/>
-                    <constraint firstItem="577" firstAttribute="bottom" secondItem="1064" secondAttribute="bottom" id="u3N-2H-l6E"/>
-                </constraints>
             </view>
         </window>
         <customObject id="494" customClass="AppDelegate">
