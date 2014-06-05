@@ -12,6 +12,7 @@
 		47236ED817073DAD0087AF04 /* lastfm_grey.gif in Resources */ = {isa = PBXBuildFile; fileRef = 47236ED717073DAD0087AF04 /* lastfm_grey.gif */; };
 		4731C8B617C6490300E2D1C1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4731C8B417C6490300E2D1C1 /* MainMenu.xib */; };
 		473EB91B1670FBE0002B3A94 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 473EB91A1670FBE0002B3A94 /* prev.png */; };
+		4741CDAF19404DEE00A42AC4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4741CDAE19404DEE00A42AC4 /* README.md */; };
 		474591E117C9F46A00A894A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 474591E317C9F46A00A894A8 /* Localizable.strings */; };
 		479EDA3316F6009600D7F7F9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479EDA3216F6009600D7F7F9 /* IOKit.framework */; };
 		479EDA3516F600FF00D7F7F9 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479EDA3416F600FF00D7F7F9 /* CoreServices.framework */; };
@@ -66,6 +67,7 @@
 		47236ED717073DAD0087AF04 /* lastfm_grey.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lastfm_grey.gif; sourceTree = "<group>"; };
 		4731C8B517C6490300E2D1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		473EB91A1670FBE0002B3A94 /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev.png; sourceTree = "<group>"; };
+		4741CDAE19404DEE00A42AC4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		474591E217C9F46A00A894A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		474591E417C9F47000A894A8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		478E6FBB17AB73BA00E46C97 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -155,6 +157,7 @@
 		47AE44E0162306FB00EB0302 = {
 			isa = PBXGroup;
 			children = (
+				4741CDAE19404DEE00A42AC4 /* README.md */,
 				47AE44F5162306FB00EB0302 /* MoeRadio for Mac */,
 				47AE44EE162306FB00EB0302 /* Frameworks */,
 				47AE44EC162306FB00EB0302 /* Products */,
@@ -355,6 +358,7 @@
 				47AE44FC162306FB00EB0302 /* main.m in Sources */,
 				47AE4503162306FB00EB0302 /* AppDelegate.m in Sources */,
 				47F678B216231F1B002CB8E4 /* MoeFmAPI.m in Sources */,
+				4741CDAF19404DEE00A42AC4 /* README.md in Sources */,
 				47F678D81623216B002CB8E4 /* MoeFmPlayer.m in Sources */,
 				47F678DE1623218F002CB8E4 /* AudioStreamer.m in Sources */,
 				47BFF8CB1781CB5700D0BEEF /* FBScrollingTextView.m in Sources */,
