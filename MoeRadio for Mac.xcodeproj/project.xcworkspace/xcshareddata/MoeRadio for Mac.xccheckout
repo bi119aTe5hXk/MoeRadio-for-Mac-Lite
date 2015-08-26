@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BBB4BBE0-C115-419E-BD6E-C46152BBB246</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MoeRadio for Mac</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B4B115B5CFB00C5AC73E1286031E4EA087102EFB</key>
+		<string>https://github.com/billgateshxk/MoeRadio-for-Mac-Lite.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MoeRadio for Mac.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B4B115B5CFB00C5AC73E1286031E4EA087102EFB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/billgateshxk/MoeRadio-for-Mac-Lite.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B4B115B5CFB00C5AC73E1286031E4EA087102EFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B4B115B5CFB00C5AC73E1286031E4EA087102EFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MoeRadio%20for%20Mac%20Lite%20MAS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
