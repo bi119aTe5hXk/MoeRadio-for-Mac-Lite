@@ -15,14 +15,10 @@
 
 #import <Social/Social.h>
 
-//#import "AppleRemote.h"
-//#import "SPMediaKeyTap.h"
-//#import "LastFm.h"
-//#import "MD5.h"
-//#import "NSDataAdditions.h"
+
 #import "FBScrollingTextView.h"
 
-//@class PlayList;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate,MoeFmAPIDelegate,MoeFmPlayerDelegate,NSSharingServiceDelegate,NSSpeechSynthesizerDelegate>{
     
     SInt32 versMaj, versMin, versBugFix;
@@ -46,7 +42,6 @@
     
     //song info
     NSURL *imageURL;
-    NSURL *lfsongurl;
     double songduration;
     NSString *songnamestr;
     NSString  *songartiststr;

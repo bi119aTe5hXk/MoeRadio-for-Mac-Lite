@@ -10,7 +10,7 @@
 #define MFCSkey "db85f35fa573a797e7422994de1deabb"
 
 #define mainurl "http://moe.fm/"
-#define playlisturl "http://moe.fm/listen/playlist?api=json&perpage=30"
+#define playlisturl "http://moe.fm/listen/playlist?api=json&perpage=30"//&music=12609"
 
 #define supporturl "http://moefou.org/topic/765"
 #define buylink "macappstore://itunes.apple.com/app/id693541589?mt=12"

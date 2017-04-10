@@ -155,7 +155,7 @@ typedef enum
                                                              options:kNilOptions
                                                                error:&error];
         
-        NSLog(@"%@",json);
+        //NSLog(@"%@",json);
 		if(json == nil){
 			// TODO
 			NSLog(@"Json data is nil");
@@ -191,7 +191,7 @@ typedef enum
                                                              options:kNilOptions
                                                                error:&error];
         
-        NSLog(@"%@",json);
+        //NSLog(@"%@",json);
 		if(json == nil){
 			// TODO
 			NSLog(@"Json data is nil");
@@ -219,7 +219,7 @@ typedef enum
     urlstr = [urlstr stringByAppendingFormat:@"&api_key=%@",self.apiKey];
     
 	NSURL *url = [NSURL URLWithString:urlstr];
-    NSLog(@"url:%@",url);
+    //NSLog(@"url:%@",url);
 	return [self createConnectionWithURL:url
 							 requestType:MFMAPI_JSON
 						 timeoutInterval:settimeout];
@@ -236,7 +236,7 @@ typedef enum
 {
     urlstr = [urlstr stringByAppendingFormat:@"&api_key=%@",self.apiKey];
 	NSURL *url = [NSURL URLWithString:urlstr];
-    NSLog(@"url:%@",url);
+    //NSLog(@"url:%@",url);
     return [self createConnectionWithURL:url 
 							 requestType:MFMAPI_PLAYLIST 
 						 timeoutInterval:settimeout];

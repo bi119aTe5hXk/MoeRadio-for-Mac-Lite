@@ -27,7 +27,6 @@
 @synthesize imageAPI = _imageAPI;
 
 -(void)applicationWillTerminate:(NSNotification *)notification{
-    NSLog(@"Log song because App will terminate");
     subidcopy = nil;
     _subid = nil;
     [self systemOverVoiceSay:@"終了します" delay:NO stopPrev:NO];
@@ -50,7 +49,7 @@
     NSLog(@"| |＼／| |／_ ＼/  _ ＼  _／_ ＼| | | |");
     NSLog(@"| |   | |  (_) |  __／ || (_) | |_| |");
     NSLog(@"|_|   |_|＼___／＼___|_| ＼___／＼__,_|");
-    NSLog(@"Product by ©HT&L 2009-2013, Developer: @bi119aTe5hXk. @Ariagle. @gregwym.");
+    NSLog(@"Product by ©HT&L 2009-2017, Developer: @bi119aTe5hXk. @Ariagle. @gregwym.");
     NSLog(@"なにこれ(°Д°)？！");
     
     Gestalt(gestaltSystemVersionMajor, &versMaj);
@@ -343,7 +342,7 @@
 
 - (void)player:(MoeFmPlayer *)player needToUpdatePlaylist:(NSArray *)currentplaylist
 {
-	NSLog(@"Requesting playlist");
+	//NSLog(@"Requesting playlist");
     [self setInfoScrollText:NSLocalizedString(@"MAIN_TITLE_LOADING_PLAYLIST",@"")];
 	if(self.playlistAPI.isBusy){
 		NSLog(@"Playlist API is busy, try again later");
